@@ -1,0 +1,220 @@
+/* ids selectors */
+#title {
+  background-color: #ff4c68;
+  padding-bottom: 5%;
+}
+
+#features {
+  padding: 150px 0 150px 0;
+  background-color: white;
+  position: relative;
+}
+
+#testimonials {
+  background-color: #ef8172;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding: 7% 0 7% 0;
+}
+
+#pricing {
+  text-align: center;
+  font-weight: bold;
+  color: #8f8f8f;
+  padding-top: 10%;
+}
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 7% 15% 7% 15%;
+}
+#footer{
+  text-align: center;
+
+}
+/* tag selectors */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* class selectors */
+.testimonial-text {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+  padding-bottom: 7%;
+}
+
+.container {
+  padding: 0;
+}
+
+.websitetitle {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.navbar {
+  padding: 3% 0 5% 0;
+  font-size: 1.3rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 3rem;
+}
+
+.nav-item {
+  padding-left: 30px;
+}
+
+.btn {
+  margin-right: 25px;
+  margin-top: 15px;
+}
+
+.DogImage {
+  transform: rotate(25deg);
+  width: 20%;
+  position: absolute;
+  right: 23%;
+}
+
+/* features */
+.features-icon {
+  color: #ef8172;
+  font-size: 5rem;
+  padding-bottom: 35px;
+  padding-top: 25px;
+}
+
+.features-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  padding-bottom: 15px;
+}
+
+.features-description {
+  color: #8f8f8f;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.features {
+  width: 280px;
+  margin: 0;
+}
+
+.features-div {
+  padding: 0;
+}
+
+.row {
+  margin: 0;
+}
+
+.features-icon:hover {
+  color: #ff4c68
+}
+
+.Pebblesimage {
+  width: 15%;
+  border-radius: 100%;
+}
+
+.press-logo {
+  width: 15%;
+  padding: 0 15px 0 15px;
+}
+
+.carousel-indicators {
+  margin-top: 1000px;
+}
+
+.carousel-item {
+  padding: 7% 15% 7% 15%;
+}
+
+/* pricing section */
+.princing-btn {
+  width: 97%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.prici {
+  font-weight: bolder;
+  color: black;
+  font-size: 2.5rem;
+  padding-top: 5%;
+}
+
+.pricing-headings {
+  font-weight: bolder;
+  color: black;
+  font-size: 1.5rem;
+  padding: 3% 3%;
+}
+
+.card {
+  margin: 0 5%;
+  width: 100%;
+  height: 100%;
+}
+
+.pricing-container {
+  padding: 5% 13%;
+}
+
+.pricing-intro {
+  font-weight: bolder;
+  color: black;
+  font-size: 2.8rem;
+}
+
+@media (max-width: 1200px) {
+  #title{
+    text-align: center;
+  }
+  .DogImage {
+    position: static;
+    transform: rotate(0);
+    width: 70%;
+  }
+}
+@media (max-width: 992px){
+  .DogImage{
+    width: 50%;
+    padding-top: 7%
+  }
+}
+.cta-text{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  color: white;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.footer-text{
+  font-weight: bolder;
+  color: #8f8f8f;
+}
+.footer-icons{
+  font-size: 25px;
+  margin: 2% 1% 2% 1%;
+}
